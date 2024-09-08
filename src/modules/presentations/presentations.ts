@@ -1,5 +1,4 @@
 import { Request, Response, NextFunction } from "express";
-import { slides_v1 } from "googleapis";
 import { ErrorHandler } from "@errors";
 import { slidesBuilder, driveBuilder } from "@config";
 import { v4 } from "uuid";

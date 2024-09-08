@@ -1,6 +1,6 @@
 import { Router } from "express";
 import {PresentationsController} from "./presentations";
-import { createPageDto, createPresentationDto, deletePresentationDto, deletePresentationPageDto, getAccessTokenWithRefreshDto, getAllPageDto, getPresentationDto, validate } from "@middlewares";
+import { createPageDto, createPresentationDto, deletePresentationDto, deletePresentationPageDto, getAllPageDto, getPresentationDto, validate } from "@middlewares";
 
 const PresentationsRouter = Router()
 
